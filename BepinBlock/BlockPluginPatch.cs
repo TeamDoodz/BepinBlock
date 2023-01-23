@@ -12,9 +12,8 @@ using System.Reflection;
 
 namespace BepinBlock;
 
-// Whenever GameObject.AddComponent(Type) is called, look at the parameter and object.
-// If the gameobject in question is Chainloader.ManagerObject and the parameter is a type assignable to BaseUnityPlugin (and isn't our plugin, although that shouldn't matter)
-// throw an exception if the type in question is blocked by the config. (If an exception is thrown when creating a plugin component, that plugin will be unloaded)
+// This is a proof of concept for preventing plugins from being loaded and is here for demonstrative purposes.
+// This class isn't actually used because instead of outright unloading/blocking plugins, we simply disable them.
 
 internal static class BlockPluginPatch {
 	static ConfigFile cfg = new ConfigFile(Path.Combine(Paths.ConfigPath, "block-plugins.cfg"), false);
