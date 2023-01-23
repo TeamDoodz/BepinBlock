@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepinBlock", "BepinBlock\BepinBlock.csproj", "{FC4F373C-5751-44D4-9B9F-7648626160EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BepinBlock", "BepinBlock\BepinBlock.csproj", "{FC4F373C-5751-44D4-9B9F-7648626160EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepinBlock.UnloadExample", "BepinBlock.UnloadExample\BepinBlock.UnloadExample.csproj", "{C9F7F51E-8AFD-45F8-9E69-E01DA0E3074E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FC4F373C-5751-44D4-9B9F-7648626160EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4F373C-5751-44D4-9B9F-7648626160EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4F373C-5751-44D4-9B9F-7648626160EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F7F51E-8AFD-45F8-9E69-E01DA0E3074E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F7F51E-8AFD-45F8-9E69-E01DA0E3074E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F7F51E-8AFD-45F8-9E69-E01DA0E3074E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F7F51E-8AFD-45F8-9E69-E01DA0E3074E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
