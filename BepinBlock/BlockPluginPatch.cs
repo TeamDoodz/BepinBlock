@@ -36,7 +36,7 @@ internal static class BlockPluginPatch {
 		if(componentType.GetCustomAttribute<BepInPlugin>() is not BepInPlugin attribute) {
 			return;
 		}
-		if(!GetModCfg(attribute)) {
+		if(GetModCfg(attribute)) {
 			return;
 		}
 
